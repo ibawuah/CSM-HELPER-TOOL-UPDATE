@@ -14,7 +14,7 @@ A browser extension that provides the following features for SAS ServiceNow CSM:
 - **NEW** Select a keyword or product name, right click, and use **Open AG Locator** To:
   - Automatically open the AG Locator Tool
   - Autofill the selected keyword into the search bar
-  -  
+    
 Basic testing has been done in Edge and Chrome.
 
 Firefox users can try the files in the firefox directory for limited functionality.
