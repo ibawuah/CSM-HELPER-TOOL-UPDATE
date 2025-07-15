@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "description": "Utilities for viewing SAS CSM cases.",
+  "name": "SAS CSM Helper",
+  "version": "0.1",
+  "permissions": ["contextMenus","scripting","activeTab"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sas.service-now.com/*"],
+      "run_at": "document_idle",
+      "js": ["expand-email.js", "content.js"]
+    }
+  ]
+}
