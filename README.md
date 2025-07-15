@@ -11,7 +11,10 @@ A browser extension that provides the following features for SAS ServiceNow CSM:
 - Select any text, right-click, and use the "Search TESSA for" menu to search TESSA
 - Select a GIDB number (open the account from a case, on the Details tab expand Account, look for a Contact Instructions field that has the GIDB number), right-click, and use "View OneView for GIDB number"
 - Expands all case email content in classic view
-  
+- **NEW** Select a keyword or product name, right click, and use **Open AG Locator** To:
+  - Automatically open the AG Locator Tool
+  - Autofill the selected keyword into the search bar
+  -  
 Basic testing has been done in Edge and Chrome.
 
 Firefox users can try the files in the firefox directory for limited functionality.
