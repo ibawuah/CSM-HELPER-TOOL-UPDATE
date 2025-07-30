@@ -133,12 +133,11 @@ if (info.menuItemId === "openAGLocatorForKeyword") {
     const keyword = info.selectionText.trim();
      if (keyword.length > 0) {
      const encodedKeyword = encodeURIComponent(keyword);
-    const url = `http://localhost/aglocator-master/index.html?search=${encodeURIComponent(keyword)}`;
+    const url = `http://toothless.unx.sas.com/aglocator/index.html#/search?=${encodeURIComponent(keyword)}`;
     chrome.tabs.create({ url });
      } else {
      console.log("No keyword provided");
      }
-  }
   
   if (info.menuItemId === "classic") {
     chrome.tabs.create({
