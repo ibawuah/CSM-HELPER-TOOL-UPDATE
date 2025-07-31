@@ -111,7 +111,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "openAGLocatorForKeyword") {
     const keyword = info.selectionText.trim();
     if (keyword.length > 0) {
-      const url = `http://toothless.unx.sas.com/aglocator/index.html#/search?=${encodeURIComponent(keyword)}`;
+      const url = `http://toothless.unx.sas.com/aglocator/index.html?search=${encodeURIComponent(keyword)}`;
       chrome.tabs.create({ url });
     } else {
       console.log("No keyword provided for AG Locator.");
@@ -163,6 +163,4 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     chrome.tabs.create({
       url: `https://sas-people.sas.com/?search-type=name&keyword=${encodeURIComponent(info.selectionText)}&bool=and&x=22&y=9`
     });
-  }
-});
 
