@@ -36,4 +36,4 @@ Firefox: https://extensionworkshop.com/documentation/develop/temporary-installat
 - Hunter Tweed: Redesign, added TSDrive, Atlas, OneView, People search, TESSA, and more 
 - Grant Whiteheart: [Original extension](https://gitlab.sas.com/grawhi/csm-case-classic-browser-extension) with open in classic view and expand emails functionality
 - Paul Thewalt: Firefox manifest fix
-- Irvin Bawuah: added AG Locator
+- Irvin Bawuah: added New AG Locator shourtcut 
